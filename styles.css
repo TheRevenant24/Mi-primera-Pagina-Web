@@ -1,0 +1,367 @@
+/* Reset elimina las margenes que vienen por defecto */
+*{
+    margin: 0; /* Elimina los margenes por defecto de todos los elementos */
+    padding: 0;  /* Elimina el relleno por defecto de todos los elementos */
+    box-sizing: border-box; /* Hace que el padding y el border se incluyan dentro del ancho y alto total de los elementos */ 
+}
+
+
+/* Estilo general */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fuente legible y moderna */
+    line-height: 2.0; /* Interlineado */
+    background-color: #f4f4f9; /* Color de fondo */
+    color: #333; /* Color de texto */
+    padding: 20px; /* Espacio alrededor (el bordeado) */
+}
+
+/* Encabezado */
+header {
+    background: #004d40; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 20px; /* Espacio alrededor (el bordeado) */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+    border-radius: 8px; /* Bordes redondeados */
+    text-align: center; /* Centra el texto dentro del encabezado */
+}
+
+header h1 {
+    color: #fff;
+    margin-bottom: 10px; /* Espacio debajo del título */
+    font-size: 2rem; /* Tamaño para el título del encabezado */
+}
+
+header p {
+    font-size: 1.1rem; /* Tamaño de fuente para el párrafo del encabezado */
+}
+
+/* Secciones */
+section {
+    background: #ffffff; /* Fondo blanco para las secciones */
+    padding: 20px; /* Espacio alrededor (el bordeado) */
+    margin-bottom: 20px;  /* Espacio debajo de cada sección */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Sombra para dar profundidad */
+}
+
+section h1, section h2 { 
+    color: #004d40; /* Color para los títulos de las secciones */
+    margin-bottom: 10px; /* Espacio debajo de los títulos */
+}
+
+/* Listas */
+ul, ol {
+    margin: 10px 0 20px 40px; /* Margen para separar las listas del texto */
+}
+
+li {
+    margin-bottom: 8px; /* Espacio debajo de cada elemento de la lista */
+}
+
+/* Imagen centrada */
+img {
+    display: block; /* Hace que la imagen se comporte como un bloque para centrarla */
+    margin: 20px auto; /* Centra la imagen horizontalmente y agrega espacio arriba y abajo */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* Sombra para dar profundidad a las imágenes */
+}
+
+/* Tablas */
+table {
+    width: 90%; /* Ancho de la tabla */
+    margin: 20px auto; /* Centra la tabla horizontalmente y agrega espacio arriba y abajo */
+    border-collapse: collapse; /* Elimina los espacios entre las celdas */
+    background: #fff; /* Fondo blanco para la tabla */
+    box-shadow: 0 2px 6px rgba(0,0,0,1.0); /* Sombra para dar profundidad a la tabla */
+}
+
+table th, table td {
+    border: 1px solid #ccc; /* Borde para las celdas internas y externas*/
+    padding: 10px; /* Espacio dentro de las celdas */
+    text-align: center; /* Centra el texto dentro de las celdas */
+}
+
+table th {
+    background: #004d40; /* Fondo para los encabezados de la tabla */
+    color: #fff; /* Color del texto para los encabezados de la tabla */
+}
+
+table tr:nth-child(even) { 
+    background: #f9f9f9; /* Fondo para las filas pares de la tabla */
+}
+
+/* Contenedor de la sección Hiper vinculos */
+.Hiper-vinculos {
+    background: #ffffff; /* Fondo blanco para contraste */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px; /* Limita el ancho para que no se vea desordenado */
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Título principal */
+.Hiper-vinculos h1 {
+    text-align: center;
+    color: #00695c;
+    margin-bottom: 15px;
+}
+
+/* Listas */
+.Hiper-vinculos ul {
+    list-style-type: disc; /* Viñetas normales */
+    margin: 15px 0 15px 40px;
+}
+
+.Hiper-vinculos li {
+    margin-bottom: 10px;
+}
+
+/* Enlaces dentro de listas */
+.listaa li a {
+    display: inline-block; /* Se comportan como bloques pequeños */
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #004d40; 
+    color: #fff; /* Azul visible */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.listaa li a:hover {
+    background: #5500ff; /* Azul al pasar el mouse */
+}
+
+/* Metodologia Agil */
+
+body.agil h1 {
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+body.agil p {
+    text-align: justify; /* justifica el texto */
+    font-size: 1.1rem; /* tamaño de la letra */
+    line-height: 1.8; /* interlineado */
+}
+
+body.agil ul {
+    margin: 20px auto;
+    max-width: 800px;
+    padding-left: 10px;
+}
+
+body.agil li {
+    margin-bottom: 10px;
+}
+
+body.agil img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 500px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+body.agil footer a {
+    display: inline-block;
+    padding: 1px 10px;
+    background: #0066cc; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5s ease;
+}
+
+body.agil footer a:hover {
+    background: #ff6600; /* Cambia a naranja al pasar el mouse */
+}
+
+/* Metodologia Cascada */
+
+body.cascada h1 {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+}
+
+body.cascada p {
+    text-align: justify; /* justifica el texto */
+    font-size: 1.1rem; /* tamaño de la letra */
+    line-height: 1.8; /* interlineado */
+}
+
+body.cascada ul {
+    margin: 20px auto;
+    max-width: 800px;
+    padding-left: 10px;
+}
+
+body.cascada li {
+    margin-bottom: 10px;
+} 
+
+body.cascada img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 100px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+body.cascada footer a {
+    display: inline-block;
+    padding: 1px 10px;
+    background: #05ec20; /* Fondo verde */
+    color: #fff; /* Texto blanco */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5s ease;
+}
+
+body.cascada footer a:hover {
+    background: #5300f8; /* Cambia a morado al pasar el mouse */
+}
+
+/* Metodologias en espiral */
+
+body.Espiral h1 {
+    color: rgb(189, 0, 247);
+    text-align: center;
+    font-size: 2rem;
+}
+
+body.Espiral p {
+    text-align: justify; /* justifica el texto */
+    font-size: 1.1rem; /* tamaño de la letra */
+    line-height: 1.8; /* interlineado */
+}
+
+body.Espiral ul {
+    margin: 20px auto;
+    max-width: 800px;
+    padding-left: 10px;
+}
+
+body.Espiral li {
+    margin-bottom: 10px;
+} 
+
+body.Espiral img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 700px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+body.Espiral footer a {
+    display: inline-block;
+    padding: 1px 10px;
+    background: #ff0173; /* Fondo verde */
+    color: #fff; /* Texto blanco */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5s ease;
+}
+
+body.Espiral footer a:hover {
+    background: #03f758; /* Cambia a verde al pasar el mouse */
+}
+
+/* Metodologias incremental */
+
+body.incremental h1 {
+    color: rgb(247, 0, 0);
+    text-align: center;
+    font-size: 2rem;
+}
+
+body.incremental p {
+    text-align: justify; /* justifica el texto */
+    font-size: 1.1rem; /* tamaño de la letra */
+    line-height: 1.8; /* interlineado */
+}
+
+body.incremental ul {
+    margin: 20px auto;
+    max-width: 800px;
+    padding-left: 10px;
+}
+
+body.incremental li {
+    margin-bottom: 10px;
+} 
+
+body.incremental img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 40px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+body.incremental footer a {
+    display: inline-block;
+    padding: 1px 10px;
+    background: #ff0173; /* Fondo verde */
+    color: #fff; /* Texto blanco */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5s ease;
+}
+
+body.incremental footer a:hover {
+    background: #03f758; /* Cambia a verde al pasar el mouse */
+}
+
+/* Metodologia Tradicional */
+
+body.tradicional h1 {
+    color: rgb(4, 255, 230);
+    text-align: center;
+    font-size: 2rem;
+}
+
+body.tradicional p {
+    text-align: justify; /* justifica el texto */
+    font-size: 1.1rem; /* tamaño de la letra */
+    line-height: 1.8; /* interlineado */
+}
+
+body.tradicioal ul {
+    margin: 20px auto;
+    max-width: 800px;
+    padding-left: 10px;
+}
+
+body.tradicional li {
+    margin-bottom: 10px;
+} 
+
+body.tradicional img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 40px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+body.tradicional footer a {
+    display: inline-block;
+    padding: 1px 10px;
+    background: #ff0173; /* Fondo verde */
+    color: #fff; /* Texto blanco */
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.5s ease;
+}
+
+body.tradicional footer a:hover {
+    background: #0303f7; /* Cambia a azul al pasar el mouse */
+}

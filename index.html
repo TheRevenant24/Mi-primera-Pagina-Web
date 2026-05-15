@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto formativo Sena</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Img\icons8-favicon-48.png">
+</head>
+<body>
+    <header>
+        <h1>Proyecto formativo Sena</h1>
+        <p>Bienvenido a mi proyecto de una pagina web en etapa inicial en la cual desarrollaremos el Instructivo que se no entrego previamente.</p>
+    </header>
+
+    <section class="desarrollo-instructivo">
+        <h1>Desarrollo del Instructivo</h1>
+        <h2>Metodología de Desarrollo</h2>
+        <p>Segun el instructivo basado en el levantamiento de requerimiento yo decidi elegir el metodo agil ya que este me permitirá adaptarme mejor a los cambios y mejorar la comunicación con el equipo.</p>
+        <p>Algunas de las razones por las cuales opte por escojer esta metodologia son:</p>
+
+        <!-- <ul></ul> se usa para crear una lista desordenada de biñetas, <ol><ol> se usa para crear una lista ordenada con numeros cabe resalatar que estas dos opciones al inicio de cada texto debe ir con un <li></li> al inicio y al final -->
+        
+        <ul>
+            <li><b>Iteraciones cortas:</b> ya que me permite dividir el proyecto en sprints de 1 a 4 semanas, entregando avances funcionales(ejemplo: Primero login, luego inventario, despues ventas)</li>
+            <li><b>Flexibilidad:</b> si cambian los requisitos o surge una nueva idea esto me permite modificar si alterar gran parte del codigo</li>
+            <li><b>Trabajo colaborativo:</b> El equipo en general participa activamnete en cada sprint, aportando ideas y solucionando problemas de manera conjunta, mejorando la calidad del producto final.</li>
+            <li><b>Control de Tiempo:</b> Se puede medir el tiempo con tableros Kamba y diagramas de Gantt.</li>
+            <li><b>Entrega Continua:</b> Al finalizar cada sprint se entrega una version funcional del producto, lo que permite obtener retroalimentacion temprana y realizar ajustes necesarios.</li>
+        </ul>
+        <center>
+            <img src="Img\Metodologia_Agil.png" alt="Metodologia Agil" width="400">
+        </center>
+        <h2>Como aplicarlo en mi proyecto</h2>
+            <ol>
+                <li><b>Planificación inicial:</b>
+                <ul>
+                    <li>Definir backlog con todos los requisitos del ERS (RF01 a RF10, RT01 a RT07, RNF01 a RNF021).</li>
+                    <li>Priorizar los esenciales (usuarios, inventario, ventas, seguridad).</li>
+                </ul>
+                </li>
+                <li><b>División del proyecto en sprints:</b>
+                <ul>
+                    <li><b>Ejemplo:</b>
+                        <ul>
+                            <li><b>Sprint 1:</b> Login y gestion de usuarios</li>
+                            <li><b>Sprint 2:</b> Inventario y gestion de productos</li>
+                            <li><b>Sprint 3:</b> Procesamiento de ventas y facturacion</li>
+                            <li><b>Sprint 4:</b> Proveedores y reservas</li>
+                            <li><b>Sprint 5:</b> Modo Offline y sincronización</li>
+                        </ul>
+                    </li>   
+                </ul>
+                </li>
+                <li><b>Herramienta de Gestion:</b>
+                <ul>
+                    <li>Tablero Kaban para tareas diarias.</li>
+                    <li>Diagrama de Gantt para el seguimiento del proyecto.</li>
+                </ul>
+                </li>
+                <li><b>Revisión y retroalimentación:</b>
+                <ul>
+                    <li>Al final de cada sprint, se presenta el avance al instructor/usuarios de prueba.</li>
+                    <li>Se ajustan requisitos según la retroalimentación recibida.</li>
+                </ul>
+                </li>
+            </ol>
+    </section>
+
+<!-- Tabla de Cronograma / <table> crea la tabla / border="1" pone bordes / 
+    cellspacing="0"  elimina espacios entre celdas / cellpadding="8"  añade espacio interno a las celdas / 
+    <thead> encabezado de la tabla / <tr> fila de la tabla / <th> Celda de encabezado (se muestra en negrilla) / 
+    <tbody> contenido de la tabla <td> celda de datos dentro de la tabla
+    <td> y <th> siempre van dentro de <tr> 
+    -->
+<center>
+<table border="4" cellspacing="2" cellpadding="8">
+    <thead>
+        <tr>
+            <th>Fase / Actividad</th>
+            <th>Descripción</th>
+            <th>Duracion (meses)</th>
+            <th>Inicio</th>
+            <th>Fin</th>
+            <th>Tipo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Inicio del Proyecto</td>
+            <td>Planeacion general y organizacion del equipo</td>
+            <td>2</td>
+            <td>Mes 1</td>
+            <td>Mes 2</td>
+            <td>Planificación</td>
+        </tr>
+        <tr>
+            <td>Recolección de Requisitos</td>
+            <td>Levantamiento y análisis de requerimientos del sistema</td>
+            <td>2</td>
+            <td>Mes 1</td>
+            <td>Mes 2</td>
+            <td>Planificación</td>
+        </tr>
+        <tr>
+            <td>Analisis del sitema</td>
+            <td>Definicion de modulos y arquitectura en general</td>
+            <td>2</td>
+            <td>Mes 2</td>
+            <td>Mes 3</td>
+            <td>Planificación</td>
+        </tr>
+        <tr>
+            <td>Sprint 1: Modulo de Usuarios</td>
+            <td>Desarrollo de Modulos y gestion de Usuarios</td>
+            <td>2</td>
+            <td>Mes 3</td>
+            <td>Mes 4</td>
+            <td>Desarrollo</td>
+        </tr>
+        <tr>
+            <td>Puebas del Modulo de Usuarios</td>
+            <td>Validacion de roles y autenticacion segura</td>
+            <td>1</td>
+            <td>Mes 4</td>
+            <td>Mes 4</td>
+            <td>Pruebas e implementación</td>
+        </tr>
+        <tr>
+            <td>Sprint 2: Inventario y Proveedores</td>
+            <td>Desarrollo de módulos para gestión de inventario y proveedores</td>
+            <td>2</td>
+            <td>Mes 5</td>
+            <td>Mes 7</td>
+            <td>Desarrollo</td>
+        </tr>
+        <tr>
+
+            <td>Sprint 3: Ventas y Caja</td>
+            <td>Registro de Ventas, calculo de totales y cierre de caja</td>
+            <td>3</td>
+            <td>Mes 8</td>
+            <td>Mes 10</td>
+            <td>Desarrollo</td>
+        </tr>
+        <tr>
+            <td>Sprint 4: Reportes y reservas</td>
+            <td>Generacion de reportes y sistema de reservas</td>
+            <td>2</td>
+            <td>Mes 11</td>
+            <td>Mes 12</td>
+            <td>Desarrollo</td>
+        </tr>
+        <tr>
+            <td>Sprint 5: Modo Offline y Seguridad</td>
+            <td>Implementacion del modo Offline y seguridad del sistema</td>
+            <td>3</td>
+            <td>Mes 13</td>
+            <td>Mes 15</td>
+            <td>Desarrollo</td>
+        </tr>
+        <tr>
+            <td>Entrega Final y Capacitacion</td>
+            <td>Documentacion, Pruebas finales y formacion de usuarios</td>
+            <td>3</td>
+            <td>Mes 16</td>
+            <td>Mes 18</td>
+            <td>Pruebas e implementación</td> 
+        </tr>
+    </tbody>
+</table>
+</center>
+  
+<div class="Hiper-vinculos">
+    <h1>¿Que son las metodologias de programacion?</h1>
+    <ul>
+        <li>Son estructuras organizadas que definen las fases,actividades y reglas para crear un software de manera eficiente y efectiva.</li>
+        <li>Ayudan a controlar tiempos, recursos y calidad, asegurando que el producto cumpla con los requisitos del cliente</li>
+        <li><b>Se dividen en:</b>
+            <ul class="listaa">
+                <li><a href="Metodologias\M_Cascada.html">Metodologia en Cascada:</a></li>
+                <li><a href="Metodologias\M_Incremental.html">Metodologia Incremental:</a></li>
+                <li><a href="Metodologias\M_Agil.html">Metodologia Agil</a></li>
+                <li><a href="Metodologias\M_Espiral.html">Metodologia en espiral</a></li>
+                <li><a href="Metodologias\M_Tradicional.html">Metodología Tradicional:</a></li>
+            </ul>
+        </li>
+    </ul>   
+</div>
+<center>
+    <p><b>Presentado Por:</b>Jhon Alexander Soto Muñoz, <b>Tecnologo en Analisis y Desarrollo de software,</b> <b>ID:</b>3410385</p>
+</center>
+</body>
+</html>
